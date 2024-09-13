@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link href="assets/favicon.png" rel="icon">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <span class="space tl" draggable="false" id="one" onclick="moves(1, 1)"></span>
+      <span class="space" draggable="false" id="two" onclick="moves(1, 2)" style="border-left: none; border-right: none; border-bottom: none;"></span>
+      <span class="space tr" draggable="false" id="three" onclick="moves(1, 3)"></span>
+      <span class="space" draggable="false" id="four" onclick="moves(1, 4)"  style="border-top: none; border-bottom: none; border-right: none;"></span>
+      <span class="space" draggable="false" id="five" onclick="moves(1, 5)"  style=""></span>
+      <span class="space" draggable="false" id="six" onclick="moves(1, 6)"  style="border-top: none; border-bottom: none; border-left: none;"></span>
+      <span class="space bl" draggable="false" id="seven" onclick="moves(1, 7)"></span>
+      <span class="space" draggable="false" id="eight" onclick="moves(1, 8)" style="border-left: none; border-right: none; border-top: none;"></span>
+      <span class="space br" draggable="false" id="nine" onclick="moves(1, 9)"></span>
+    </div>
+    <dialog class="modal" style="display: none;">
+      <span class="message"  style="border-right: none; border-bottom: none;"></span>
+    </dialog>
+    <script src="moves.js"></script>
+    <script src="checker.js"></script>
+</body>
+</html>

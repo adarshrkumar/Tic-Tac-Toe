@@ -1,0 +1,55 @@
+html, body {
+  width: 100%;
+  height: 100^
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 20rem;
+  aspect-ratio: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: solid 1px black;
+  border-radius: 25px;
+  background-color: black;
+  gap: 1px;
+}
+
+span.space {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.message {
+  font-size: 150px;
+}
